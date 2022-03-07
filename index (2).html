@@ -21,10 +21,28 @@
     crossorigin="anonymous"></script>
 
   <title>RDNEWS-Portal de Noticias de MT</title>
+
+  <!-- Depois é melhor fazer um CSS separado, mas por enquanto vou deixar aqui-->
+  <style>
+    #header {
+      background-color: #47A42B;
+    }
+
+    .txt-destaque-verde {
+      color: #47A42B;
+      text-transform: uppercase;
+    }
+
+    .txt-noticia-titulo {
+      color: black;
+      font-weight: bold;
+    }
+  </style>
+
 </head>
 
 <body>
-  <nav class="navbar navbar-expand-lg navbar-light bg-info">
+  <nav class="navbar navbar-expand-lg navbar-light ">
     <img src="logo.png">
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
       aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
@@ -39,15 +57,26 @@
       </div>
     </div>
   </nav>
-  <div class="container">
 
-    <div class="card" style="width:400px">
-      <img class="" src="41322f0475efcc274324a13381f8d53f.jpg" alt="card imge" style="width: 100%">
-      <div class="card-body">
-        <h4 class="card-title">EVENTO EM SINOP </h4>
-        <a href="#" class="btn-primary">Justiça fixa fiança de R$ 20 mil a empresário que atirou durante festa</a>
-        < </div>
+  <div class="container">
+    <div class="row">
+      <!-- Inicio da coluna principal -->
+      <div class="col-md-8">
+
+        <div class="card" style="width:400px">
+          <img class="" src="41322f0475efcc274324a13381f8d53f.jpg" alt="card imge" style="width: 100%">
+          <div class="card-body">
+            <h4 class="card-title">EVENTO EM SINOP </h4>
+            <a href="#" class="btn-primary">Justiça fixa fiança de R$ 20 mil a empresário que atirou durante festa</a>
+            < </div>
+          </div>
+        </div>
+        <!-- Inicio da coluna lateral (aside) -->
+        <div class="row col-md-4 "> aaaaa
+
+        </div>
       </div>
+
       <br>
 </body>
 
