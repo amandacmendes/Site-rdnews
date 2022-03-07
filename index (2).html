@@ -24,15 +24,22 @@
 
   <!-- Depois é melhor fazer um CSS separado, mas por enquanto vou deixar aqui-->
   <style>
+    #header-logo{
+      padding-top: 20px;      
+      padding-bottom: 20px;
+    }
     #menu-suspenso-verde {
       background-color: #47A42B;
     }
-
     .txt-destaque-verde {
       color: #47A42B;
       text-transform: uppercase;
     }
-
+    .txt-menu-suspenso-branco{
+      color: white;
+      text-transform: uppercase;
+      font-size: smaller;
+    }
     .txt-noticia-titulo {
       color: black;
       font-weight: bold;
@@ -44,21 +51,90 @@
 <body>
 
   <!-- Menu suspenso -->
-  <nav class="navbar navbar-expand-lg navbar-light ">
-    <img src="logo.png">
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
-      aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-      <div class="navbar-nav" align="center">
-        <a class="nav-item nav-link" href="#">Coronavírus </a>
-        <a class="nav-item nav-link" href="#">Curtinhas</a>
-        <a class="nav-item nav-link" href="#">Policia</a>
-        <a class="nav-item nav-link" href="#">Executivo</a>
+  <div class="container" id="header-logo">
+      <img src="logo.png">
+  </div>
+  <div class="container-fluid d-flex justify-content-center" id="menu-suspenso-verde"> 
+    <nav class="navbar navbar-expand-lg navbar-dark txt-menu-suspenso-branco">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent" >
+        <ul class="navbar-nav mr-auto container">
+          <li class="nav-item">
+            <a class="nav-link " href="#">Coronavírus<span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">curtinhas</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">cidades</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">polícia</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">executivo</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">legislativo</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">judiciario</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">economia</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">esportes</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">nacional</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">partido</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">eleições 2022</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">cultura</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">resultado eleições-2020</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">variedades</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">entrevista especial</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">mundo</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">órgãos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">artigos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">ponto de vista</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">colunistas</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">rd exclusivo</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">vídeos curiosos</a>
+          </li>
+        </ul>    
       </div>
-    </div>
-  </nav>
+    </nav>
+  </div>
+  <!--Fim menu suspenso-->
 
   <div class="container">
     <div class="row">
@@ -71,19 +147,19 @@
           <div class="card-body">
             <h4 class="card-title">EVENTO EM SINOP </h4>
             <a href="#" class="btn-primary">Justiça fixa fiança de R$ 20 mil a empresário que atirou durante festa</a>
-           </div>
           </div>
-        </div>
-
-        <!-- Inicio da coluna lateral (aside) -->
-        <div class="row col-md-4 border"> 
-          
-          
-
         </div>
       </div>
 
-      <br>
+      <!-- Inicio da coluna lateral (aside) -->
+      <div class="row col-md-4 border">
+
+
+
+      </div>
+    </div>
+
+    <br>
 </body>
 
 </html>
