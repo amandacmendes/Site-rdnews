@@ -24,22 +24,26 @@
 
   <!-- Depois é melhor fazer um CSS separado, mas por enquanto vou deixar aqui-->
   <style>
-    #header-logo{
-      padding-top: 20px;      
+    #header-logo {
+      padding-top: 20px;
       padding-bottom: 20px;
     }
+
     #menu-suspenso-verde {
       background-color: #47A42B;
     }
+
     .txt-destaque-verde {
       color: #47A42B;
       text-transform: uppercase;
     }
-    .txt-menu-suspenso-branco{
+
+    .txt-menu-suspenso-branco {
       color: white;
       text-transform: uppercase;
       font-size: smaller;
     }
+
     .txt-noticia-titulo {
       color: black;
       font-weight: bold;
@@ -52,14 +56,15 @@
 
   <!-- Menu suspenso -->
   <div class="container" id="header-logo">
-      <img src="logo.png">
+    <img src="logo.png">
   </div>
-  <div class="container-fluid d-flex justify-content-center" id="menu-suspenso-verde"> 
+  <div class="container-fluid d-flex justify-content-center" id="menu-suspenso-verde">
     <nav class="navbar navbar-expand-lg navbar-dark txt-menu-suspenso-branco">
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
-      <div class="collapse navbar-collapse" id="navbarSupportedContent" >
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav mr-auto container">
           <li class="nav-item">
             <a class="nav-link " href="#">Coronavírus<span class="sr-only">(current)</span></a>
@@ -130,7 +135,7 @@
           <li class="nav-item">
             <a class="nav-link" href="#">vídeos curiosos</a>
           </li>
-        </ul>    
+        </ul>
       </div>
     </nav>
   </div>
@@ -153,10 +158,30 @@
 
       <!-- Inicio da coluna lateral (aside) -->
       <div class="row col-md-4 border">
+        <aside>
+          <!-- Curtinhas-->
+          <div class="bg-info d-flex">
+            <div class="d-inline-flex" style="float: left;">
+              <h4 class="txt-destaque-verde">Curtinhas</h4>
+            </div>
+            <div class="d-flex justify-content-end align-items-center">
+              <img src="curtinhas-prev.png">
+              <img src="curtinhas-next.png">
+            </div>
+          </div>
 
 
+          <!-- Imagem Blog do Ronilson-->
+          <div>
+            <img src="blog-stamp-romilson.png">
+          </div>
+          <!-- Div Eleicoes-->
+          <div>
 
+          </div>
+        </aside>
       </div>
+
     </div>
 
     <br>
