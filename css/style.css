@@ -1,0 +1,25 @@
+
+#header-logo {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+  
+#menu-suspenso-verde {
+    background-color: #47A42B;
+}
+  
+.txt-destaque-verde {
+    color: #47A42B;
+    text-transform: uppercase;
+}
+  
+.txt-menu-suspenso-branco {
+    color: white;
+    text-transform: uppercase;
+    font-size: smaller;
+}
+  
+.txt-noticia-titulo {
+    color: black;
+    font-weight: bold;
+}
